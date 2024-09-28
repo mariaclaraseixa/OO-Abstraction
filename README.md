@@ -112,7 +112,13 @@ Funções template são uma forma de tornar funções ou classes abstratas, perm
 
 Por exemplo, você poderia criar uma função de inserção (*push*) de pilha usando templates. Esta função *push* seria capaz de lidar com a operação de inserção em uma pilha para qualquer tipo de dado, ao invés de precisar criar uma função de inserção específica para cada tipo diferente de dado.
 
+#
+
+De acordo com o livro Introduction to Python Programming de Udayan Das, Aubrey Lawson, Chris Mayfield e Narges Norouzi, a abstração é um conceito chave na Programação Orientada a Objetos (POO), no qual o funcionamento interno de uma unidade é ocultado dos usuários e de outras unidades que não precisam conhecer esses detalhes internos. Por exemplo, um motorista geralmente não precisa saber a temperatura exata do motor de seu carro em números. Em vez disso, o carro possui um medidor que exibe se a temperatura do motor está dentro de uma faixa apropriada (Das et al., 2024).
+
 
 # References
 
 Malla Reddy College of Engineering & Technology. Object Oriented Programming: Digital Notes (B.Tech, I Year – II Sem, 2018-19, Department of CSE & IT). Autonomous Institution – UGC, Govt. of India. Maisammaguda, Dhulapally, Secunderabad, Telangana State, India, 2018. Available at: https://mrcet.com/downloads/digital_notes/HS/OOP_10122018.pdf.
+
+Das, U., Lawson, A., Mayfield, C., & Norouzi, N. (2024). Introduction to Python Programming. OpenStax, Rice University. Disponível em: https://openstax.org. ©2024 Rice University. Texto licenciado sob uma Licença Internacional Creative Commons Atribuição 4.0 (CC BY 4.0).
