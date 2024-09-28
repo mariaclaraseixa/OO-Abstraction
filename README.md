@@ -1,7 +1,39 @@
-# OO-Abstraction
+# Abstracao 
+
+## Visao geral 
+### Abstração Explicada com Emojis
+
+Imagine que você está tentando explicar a ideia de um **carro** para alguém que nunca viu um. Em vez de mostrar todas as partes complexas do motor, da eletrônica e dos detalhes técnicos, você simplesmente desenha isso: 🚗. Esse emoji é uma **abstração** do carro, uma simplificação visual que representa o conceito de um carro sem entrar nos detalhes complicados.
+
+Em programação orientada a objetos, **abstração** funciona da mesma maneira. A abstração é como criar uma **imagem mental** ou uma **representação** simplificada de algo da vida real. Por exemplo, se estivermos programando sobre um carro, não precisamos lidar diretamente com todos os componentes internos do motor ou as especificidades do tipo de combustível. Em vez disso, focamos em aspectos mais simples e úteis, como o ato de "dirigir", "frear" ou "acelerar".
+
+Aqui está como os emojis podem nos ajudar a entender os conceitos de abstração:
+
+- 🚗 - O emoji de um carro **não mostra** como o carro realmente funciona, mas nos dá uma ideia clara de que estamos falando de um carro.
+- 💻 - O emoji de um laptop **não nos diz** como o processador ou a memória funcionam, mas simboliza um computador.
+- 🍎 - O emoji de uma maçã **não inclui** informações sobre seu sabor, peso ou variedade, mas nos faz pensar em uma maçã.
+
+Na programação, uma **classe** é como o emoji 🚗. Ela representa um conceito (como "Carro"), mas esconde os detalhes complexos de como o carro realmente funciona. Ao invés de ver cada detalhe, nós interagimos apenas com as partes que são importantes para o que queremos fazer.
+
+Então, quando dizemos que a abstração é uma **representação** ou **simplificação**, estamos criando algo que captura as partes essenciais da realidade, deixando de fora os detalhes desnecessários para a tarefa em questão. Da mesma forma que o emoji 🚗 é uma abstração de um carro, uma classe em programação é uma abstração de um conceito da vida real.
+
+**Resumo:** A abstração é como pegar a essência de algo e transformá-la em uma versão mais simples, mais fácil de entender e trabalhar. É a forma que usamos para focar no que é importante, ignorando o que não precisamos saber no momento.
+
+## Relação com OO
+
+Relação entre Abstração e Classe em C++
+Em C++, uma classe é a forma que usamos para abstrair objetos do mundo real, capturando apenas os aspectos essenciais que precisamos. Vamos considerar o exemplo de um carro novamente:
+
+Realidade Complexa:
+Na vida real, um carro tem várias partes complexas: o motor, a transmissão, o sistema elétrico, os freios, etc. Se você fosse representar cada detalhe em um programa, o código seria muito complicado e difícil de lidar.
+
+Abstração com Classe:
+Em C++, em vez de modelar todos esses detalhes, criamos uma classe que abstrai os elementos que são mais importantes para o nosso propósito. Podemos criar uma classe Carro que simplifica a ideia de um carro, contendo apenas os atributos e funções mais relevantes.
 
 
+# Abstracao
 
+## Notas Digitais de Programação Orientada a Objetos
 De acordo com as Notas Digitais de Programação Orientada a Objetos (B.Tech, 1º Ano – 2º Sem, 2018-19, Departamento de CSE & IT) do Malla Reddy College of Engineering & Technology (2018), os principais princípios da programação orientada a objetos incluem encapsulamento, abstração de dados, polimorfismo, herança, ligação dinâmica e passagem de mensagens. Esses princípios formam a base da POO, permitindo o desenvolvimento de código modular e eficiente, promovendo a reutilização e flexibilidade dos objetos. A abstração refere-se ao ato de representar características essenciais sem incluir os detalhes ou explicações de fundo. As classes utilizam o conceito de abstração e são definidas como uma lista de atributos, como tamanho, peso, custo e funções para operar sobre esses atributos. Elas encapsulam todas as propriedades essenciais do objeto que será criado. Os atributos são chamados de membros de dados, pois armazenam informações, e as funções que operam nesses dados são chamadas de funções-membro. As classes utilizam o conceito de abstração de dados, por isso são chamadas de tipo abstrato de dados (TAD) (Malla Reddy College of Engineering & Technology, 2018), ou seja, os princípios destacados neste texto são:
 
 1. Encapsulation
