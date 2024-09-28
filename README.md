@@ -11,6 +11,57 @@ De acordo com as Notas Digitais de Programação Orientada a Objetos (B.Tech, 1�
 5. Dynamic binding
 6. Message passing
 
+Com base no que foi dito por esta Autora pensei no seguinte exemplo: 
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+// Definição da classe Carro (usando abstração)
+class Carro {
+private:
+    string marca;
+    string modelo;
+    int ano;
+    float preco;
+
+public:
+    // Construtor para inicializar os atributos
+    Carro(string m, string mod, int a, float p) : marca(m), modelo(mod), ano(a), preco(p) {}
+
+    // Função para exibir os detalhes do carro
+    void exibirDetalhes() {
+        cout << "Marca: " << marca << endl;
+        cout << "Modelo: " << modelo << endl;
+        cout << "Ano: " << ano << endl;
+        cout << "Preço: R$" << preco << endl;
+    }
+
+    // Função para calcular a depreciação do carro
+    void calcularDepreciacao(int anoAtual) {
+        int idade = anoAtual - ano;
+        float valorDepreciado = preco * (1 - (0.05 * idade));  // Deprecia 5% por ano
+        if (valorDepreciado < 0) {
+            valorDepreciado = 0;
+        }
+        cout << "Valor depreciado: R$" << valorDepreciado << endl;
+    }
+};
+
+int main() {
+    // Criação de um objeto da classe Carro
+    Carro meuCarro("Toyota", "Corolla", 2015, 75000);
+
+    // Exibir detalhes do carro
+    meuCarro.exibirDetalhes();
+
+    // Calcular depreciação
+    meuCarro.calcularDepreciacao(2024);
+
+    return 0;
+}
+
 A linguagem C++ adiciona ainda de acordo com (2018, Malla) o Conceito de Templates, onde em vez de escrever diferentes funções para diferentes tipos de dados, podemos definir uma função comum. Por exemplo:
 
 ```cpp
