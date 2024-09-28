@@ -148,3 +148,5 @@ A abstração proposta por Peter Coad permite, portanto, dividir e organizar os 
 Aqui está a referência no formato ABNT:
 
 **COAD, Peter; DE LUCA, Jeff; LEFEBVRE, Eric.** *Java modeling color with UML: enterprise components and process with Cdrom*. Upper Saddle River: Prentice Hall PTR, 1999.
+
+**ROBASKI, José Ricardo; RAMOS, Edward.** FDD (Feature Driven Development): desenvolvimento guiado por funcionalidades. Medium, 25 ago. 2014. Disponível em: https://medium.com/@jrobaski/fdd-feature-driven-development-7d08c5c24c8f. Acesso em: 28 set. 2024.
