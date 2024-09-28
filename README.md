@@ -120,6 +120,22 @@ De acordo com o livro Introduction to Python Programming de Udayan Das, Aubrey L
 
 O conceito de classe abstrata é baseado na ideia de abstração, onde uma classe representa uma ideia geral que não pode ser diretamente instanciada. Um exemplo é a classe "Pessoa", que representa uma noção vaga e genérica. Em contrapartida, classes como "Aluno" ou "Professor" são exemplos concretos dessa generalização e podem ser instanciadas. A classe abstrata, portanto, age como um modelo que define comportamentos e propriedades comuns a suas subclasses, mas não pode ser utilizada para criar objetos diretamente. Isso ajuda a estruturar e organizar o código de forma mais eficiente em aplicações. "Kucherenko exemplifica o conceito de classes abstratas ao explicar que, em um sistema de aplicação, a criação de objetos concretos como 'Aluno' ou 'Professor' faz mais sentido do que a criação de um objeto de uma classe genérica como 'Pessoa'. As classes abstratas, assim, representam ideias gerais que servem de base para classes mais específicas" (Kucherenko, 2018).
 
+#COAD
+
+A visão de abstração de Peter Coad, descrita no livro *"Java Modeling in Color with UML"*, propõe uma abordagem visual e intuitiva para modelagem de sistemas complexos. Essa abordagem organiza as classes em quatro arquétipos básicos, diferenciados por cores, facilitando o entendimento e a construção de modelos de software. Os arquétipos são: *coisas* (verde), *interações* (rosa), *papéis* (amarelo) e *descrições* (azul)【4†source】.
+
+Para exemplificar o uso desses arquétipos, imagine uma situação onde João é proprietário de um carro, atua como motorista e recebe uma multa de trânsito. Cada elemento dessa história pode ser abstraído usando os arquétipos de Coad, ilustrando como essas categorias ajudam a organizar e conectar diferentes partes de um sistema.
+
+No arquétipo **verde** (coisas), identificamos objetos tangíveis no mundo real, como João, representado pela classe "Pessoa", e o "Carro" que ele possui e dirige. Esses são os principais elementos físicos que interagem no sistema.
+
+O arquétipo **rosa** (interações) descreve os eventos que ocorrem entre as *coisas*. Nesse caso, a "Multa de Trânsito" é a interação significativa — João, ao dirigir seu carro, ultrapassa o limite de velocidade e é penalizado. A multa é a interação formal entre João, seu carro, e as autoridades de trânsito.
+
+O arquétipo **amarelo** (papéis) representa as funções ou papéis que os atores desempenham nas interações. João desempenha dois papéis: o de **motorista**, enquanto dirige o carro, e o de **proprietário**, visto que o veículo está registrado em seu nome. Esses papéis são cruciais para compreender como João está relacionado às interações e aos objetos no sistema.
+
+Por fim, o arquétipo **azul** (descrições) detalha atributos das *coisas* e das *interações*. Por exemplo, o "Carro" pode ser descrito com informações como marca, modelo e placa. A "Multa de Trânsito" inclui detalhes como o tipo de infração (excesso de velocidade), a data, hora e valor a ser pago. Além disso, há a "Carteira de Habilitação" de João, que é uma descrição essencial para validar seu papel como motorista.
+
+A abstração proposta por Peter Coad permite, portanto, dividir e organizar os componentes de um sistema em categorias claras, o que facilita tanto o entendimento do domínio quanto a construção de soluções de software. Ao identificar classes e suas relações dentro dessas categorias, a modelagem se torna mais eficiente, com foco nos elementos de negócio relevantes e nas suas interações. Como ele argumenta no livro, essa estruturação ajuda a visualizar melhor o sistema, promovendo maior criatividade e inovação ao explorar "o que poderia ser feito e o que poderia trazer vantagem significativa ao negócio"【4†source】.
+
 # References
 
 
@@ -128,3 +144,7 @@ O conceito de classe abstrata é baseado na ideia de abstração, onde uma class
 **DAS, U.; LAWSON, A.; MAYFIELD, C.; NOROUZI, N.** *Introduction to Python Programming*. OpenStax, Rice University, 2024. Disponível em: <https://openstax.org>. Acesso em: 28 set. 2024. ©2024 Rice University. Texto licenciado sob uma Licença Internacional Creative Commons Atribuição 4.0 (CC BY 4.0).
 
 **KUCHERENKO, Igor.** *Mastering High Performance with Kotlin: Overcome performance difficulties in Kotlin with a range of exciting techniques and solutions*. Birmingham: Packt Publishing Ltd, 2018.
+
+Aqui está a referência no formato ABNT:
+
+**COAD, Peter; DE LUCA, Jeff; LEFEBVRE, Eric.** *Java modeling color with UML: enterprise components and process with Cdrom*. Upper Saddle River: Prentice Hall PTR, 1999.
