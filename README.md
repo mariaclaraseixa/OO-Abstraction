@@ -134,7 +134,7 @@ O arquétipo **amarelo** (papéis) representa as funções ou papéis que os ato
 
 Por fim, o arquétipo **azul** (descrições) detalha atributos das *coisas* e das *interações*. Por exemplo, o "Carro" pode ser descrito com informações como marca, modelo e placa. A "Multa de Trânsito" inclui detalhes como o tipo de infração (excesso de velocidade), a data, hora e valor a ser pago. Além disso, há a "Carteira de Habilitação" de João, que é uma descrição essencial para validar seu papel como motorista.
 
-A abstração proposta por Peter Coad permite, portanto, dividir e organizar os componentes de um sistema em categorias claras, o que facilita tanto o entendimento do domínio quanto a construção de soluções de software. Ao identificar classes e suas relações dentro dessas categorias, a modelagem se torna mais eficiente, com foco nos elementos de negócio relevantes e nas suas interações. Como ele argumenta no livro, essa estruturação ajuda a visualizar melhor o sistema, promovendo maior criatividade e inovação ao explorar "o que poderia ser feito e o que poderia trazer vantagem significativa ao negócio"【4†source】.
+A abstração proposta por Peter Coad permite, portanto, dividir e organizar os componentes de um sistema em categorias claras, o que facilita tanto o entendimento do domínio quanto a construção de soluções de software. Ao identificar classes e suas relações dentro dessas categorias, a modelagem se torna mais eficiente, com foco nos elementos de negócio relevantes e nas suas interações. Como ele argumenta no livro, essa estruturação ajuda a visualizar melhor o sistema, promovendo maior criatividade e inovação ao explorar "o que poderia ser feito e o que poderia trazer vantagem significativa ao negócio".
 
 # References
 
