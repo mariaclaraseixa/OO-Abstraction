@@ -120,7 +120,7 @@ De acordo com o livro Introduction to Python Programming de Udayan Das, Aubrey L
 
 O conceito de classe abstrata é baseado na ideia de abstração, onde uma classe representa uma ideia geral que não pode ser diretamente instanciada. Um exemplo é a classe "Pessoa", que representa uma noção vaga e genérica. Em contrapartida, classes como "Aluno" ou "Professor" são exemplos concretos dessa generalização e podem ser instanciadas. A classe abstrata, portanto, age como um modelo que define comportamentos e propriedades comuns a suas subclasses, mas não pode ser utilizada para criar objetos diretamente. Isso ajuda a estruturar e organizar o código de forma mais eficiente em aplicações. "Kucherenko exemplifica o conceito de classes abstratas ao explicar que, em um sistema de aplicação, a criação de objetos concretos como 'Aluno' ou 'Professor' faz mais sentido do que a criação de um objeto de uma classe genérica como 'Pessoa'. As classes abstratas, assim, representam ideias gerais que servem de base para classes mais específicas" (Kucherenko, 2018).
 
-#COAD
+# COAD
 
 A visão de abstração de Peter Coad, descrita no livro *"Java Modeling in Color with UML"*, propõe uma abordagem visual e intuitiva para modelagem de sistemas complexos. Essa abordagem organiza as classes em quatro arquétipos básicos, diferenciados por cores, facilitando o entendimento e a construção de modelos de software. Os arquétipos são: *coisas* (verde), *interações* (rosa), *papéis* (amarelo) e *descrições* (azul)【4†source】.
 
